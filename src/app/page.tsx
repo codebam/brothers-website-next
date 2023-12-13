@@ -1,113 +1,114 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+	return (
+		<main className="flex min-h-screen flex-col items-center justify-between p-24">
+			<h1>Brothers International Community</h1>
+			<h2>Join brothers community</h2>
+			<h3>Build trustworthy international connections</h3>
+			<div id="summary">
+				<p>
+					We are a group of Brothers, who created this community and selfishly
+					named it after the brotherly relationship we share.
+				</p>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+				<p>
+					First of all, ‘Brothers’ is considered a gender neutral term in our
+					community, man or woman, you’re equal in our community. We use this
+					single term to represent all of us regardless of our gender, ethnicity
+					and any other differences. We believe that the gender neutral word
+					also filters away any undesirable gender attraction it may cause, thus
+					creating a pure relationship of family we can trust and feel safe upon
+					while amongst strangers.
+				</p>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+				<p>
+					We’ve always dreamt to create a community of trustworthy people
+					working together and helping each other out. But we realised that in
+					this hectic world, everyone is out for themselves and not many are
+					interested in building relationships that doesn’t benefit them
+					somehow.
+				</p>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+				<p>
+					Tasting the sweetness of this camaraderie, we understood how hard it
+					is to build such bonds.
+				</p>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+				<p>
+					People tend to forget that they’re amassing wealth and positions for
+					happiness and peace in life. While our community believes that true
+					happiness and peace in life exists due to the people who really cares
+					for us around us. Thus building good people to live together with is
+					also essential for us to remain happy just as much as how we need
+					wealth and status.
+				</p>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+				<p>
+					In practical life many are forced to abandon their good relationships
+					afraid that they won’t benefit from it in the long run. We abandon
+					people who were once very close to us because they aren’t equal to us
+					anymore. Slowly we learn to build relations only due to the benefits
+					they provide. Relationships become a trade of benefits rather than the
+					genuine warmth they’re supposed to provide.
+				</p>
+
+				<p>
+					While forsaking the relationships that don’t benefit us, we gradually
+					grow selfish and are bothered about our life alone. And we slowly
+					learn to relinquish our childhood innocence and the genuine concern we
+					felt for the people around us. Our life gradually narrows down to a
+					singular unit of ourselves, unable to gain back the ability to give
+					warmth to others and to recieve it from others.
+				</p>
+
+				<p>
+					Our dream is to create a community of Brothers who are genuine to each
+					other and retain this warmth and concern between themselves so that
+					all of us can live a content and peaceful life within such bonds.
+				</p>
+
+				<p>
+					We believe that the majority of the people who join this community and
+					seek it’s services may only look for their own personal benefits. Yet
+					we created this platform as an initiation where we may meet people of
+					similar interests, true Brothers who can work together and help each
+					other out. Such bonds are more precious than any wealth we make.
+					Creating such bonds require lots of effort by an individual. Thus we
+					use this community as a medium to earn such people and bonds, to make
+					a large web of people of such similar interests.
+				</p>
+
+				<p>
+					Even finding a couple dozen sincere Brothers from the millions of
+					members we may potentially acquire, shall fulfill our honest dream.
+					Our community was solely created to find those couple dozen group of
+					people.
+				</p>
+
+				<p>
+					I believe nothing in this world can destroy the bonds of such a group
+					of people. People of the pure heart, devoid of jealousy, selfishness,
+					envy and pride amongst each other. People who show genuine brotherly
+					concern for each other. People who are ready to adjust with others and
+					don’t dominate others with their ego. People who don’t keep grudges
+					towards each other. People who don’t trample others for their own
+					personal status and ambitions.
+				</p>
+
+				<p>
+					We hope that our initiation may rekindle the warmth and concern buried
+					in people’s heart for one another and they soon reach out to each
+					other as real brothers.
+				</p>
+
+				<p>
+					We look forward to the future, concealed by a veil of fate and believe
+					that our dream shall be fulfilled one day.
+				</p>
+
+				<p>~Brothers Team.</p>
+			</div>
+		</main>
+	);
 }
